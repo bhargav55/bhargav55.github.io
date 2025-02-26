@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   locationLink: "",
   about: "Engineer | Architect",
   summary:
-    "Engineer with extensive experience in blockchain, DeFi, and AI-powered crypto applications. Proven track record in developing multi-chain solutions and enhancing Web3 accessibility.",
+    "Engineer with extensive experience in blockchain, DeFi, and cross-chain powered crypto applications. Proven track record in developing multi-chain solutions and enhancing Web3 accessibility.",
   avatarUrl: "",
   personalWebsiteUrl: "",
   contact: {
@@ -62,6 +62,17 @@ export const RESUME_DATA = {
       "Architected revolutionary prediction market protocols for Nexter Finance, integrating Classic and NoLoss prediction systems with cross-protocol yield generation via Aave, Stader, and Quickswap\nPioneered protocol deployments across cutting-edge L2 ecosystems including Arbitrum, Optimism, zkSync, and Mantle, positioning Nexter at the forefront of blockchain scalability\nEngineered a sophisticated automation framework leveraging Openzeppelin, Chainlink Keepers, and Gelato network, creating a self-executing DeFi ecosystem\nCultivated and mentored a high-performing technical team from inception, establishing Nexter as an innovation hub while developing comprehensive subgraph infrastructure\nDesigned an enterprise-grade API architecture using GoLang while establishing rigorous security standards through strategic partnerships with top-tier audit vendors"
     },
     {
+      company: "Xalts",
+      link: "https://www.xalts.io/",
+      badges: ["Tokenization, Account Abstraction"],
+      title: "Lead Blockchain Engineer",
+      logo: "/images/logos/XaltsLogo1.png",
+      start: 2023,
+      end: 2023,
+      description:
+      "Led the implementation of Account Abstraction (ERC4337) across multiple blockchains including Polygon, Avalanche subnet, and Hyperledger Besu, revolutionizing user onboarding and transaction experiences\nDeveloped sophisticated in-house infrastructure integrating skandha bundlers, creating a robust foundation for advanced blockchain functionality\nArchitected cutting-edge smart contracts for asset tokenization in trade finance, enabling institutional-grade financial instruments on blockchain\nEngineered a high-performance scaling solution capable of processing millions of tokenized asset transactions for major financial institutions\nCreated a powerful custom indexing system for EVM chains using TypeScript, GraphQL and MongoDB, providing comprehensive data analytics capabilities"
+    },
+    {
       company: "BitArch",
       link: "https://www.bitarch.io/",
       badges: ["Cross-Chain", "Bridging", "Chain Abstraction"],
@@ -70,7 +81,7 @@ export const RESUME_DATA = {
       start: 2024,
       end: null,
       description:
-      "Led the development of BitArch's revolutionary cross-chain bridge aggregator, establishing a unified gateway with advanced chain abstraction technology across four major ecosystems: Ethereum, Solana, Cosmos, and Bitcoin\nArchitected a secure, high-throughput protocol that optimizes swap routes across 15+ bridges, significantly reducing fees and transaction times while enhancing capital efficiency\nOrchestrated strategic integrations with key infrastructure providers across diverse blockchain architectures, creating the industry's most comprehensive cross-chain solution with seamless user experience\nBuilt and mentored a distributed technical team of blockchain specialists, establishing BitArch as the leading innovator in cross-chain interoperability infrastructure"
+      "Led the development of BitArch's revolutionary cross-chain bridge aggregator, implementing state-of-the-art chain abstraction technology that seamlessly connects Ethereum, Solana, Cosmos, and Bitcoin ecosystems\nArchitected a secure, high-throughput protocol with advanced MEV protection that optimizes swap routes across 15+ bridges, reducing transaction costs by 40% and confirmation times by 65%\nDeveloped a comprehensive cross-chain swap SDK and API suite with standardized interfaces, enabling third-party DeFi applications to seamlessly integrate BitArch's cross-chain functionalities"
     },
   ],
   skills: [
