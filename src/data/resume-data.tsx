@@ -1,95 +1,76 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Vetrichelvan Jeyapalpandy",
-  initials: "VJ",
-  location: "Batlagundu, India",
+  name: "Bhargav Kacharla",
+  initials: "BK",
+  location: "Dharmavaram, India",
   locationLink: "",
-  about: "CTO | Architect",
+  about: "Engineer | Architect",
   summary:
-    "CTO with extensive experience in blockchain, DeFi, and AI-powered crypto applications. Proven track record in developing multi-chain solutions and enhancing Web3 accessibility.",
+    "Engineer with extensive experience in blockchain, DeFi, and AI-powered crypto applications. Proven track record in developing multi-chain solutions and enhancing Web3 accessibility.",
   avatarUrl: "",
   personalWebsiteUrl: "",
   contact: {
-    email: "vetri@frontier.xyz",
+    email: "kacharlabhargav21@gmail.com",
     tel: "",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/vetri02",
+        url: "https://github.com/bhargav55",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/vetri02/",
+        url: "https://www.linkedin.com/in/bhargav-kacharla-9a4b3552/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/vetri02",
+        url: "https://x.com/K_Bhargav21",
         icon: XIcon,
       }]
   },
   education: [
     {
-      school: "Kongu Engineering College",
-      degree: "Bachelor of Technology, Chemical Engineering",
-      start: "2003",
-      end: "2007",
+      school: "SASTRA University",
+      degree: "Bachelor of Technology, Computer Science",
+      start: "2011",
+      end: "2015",
     },
   ],
   work: [
     {
-      company: "Frontier",
-      link: "https://frontier.xyz",
-      badges: ["Wallet"],
-      title: "Chief Technology Officer & Co-founder",
-      logo: "/images/logos/FrontierLogo.png",
-      start: 2020,
+      company: "Oddz",
+      link: "https://www.oddz.fi/",
+      badges: ["Derivatives, Options trading"],
+      title: "Blockchain Engineer",
+      logo: "/images/logos/OddzLogo.png",
+      start: 2021,
       end: null,
       description:
-        "Led the development of Frontier, a revolutionary non-custodial multi-chain wallet for the Web3 and DeFi ecosystem\nPioneered the first DeFi Aggregator in the space, significantly enhancing user access to diverse DeFi protocols\nExpanded support to over 70 blockchain networks, establishing Frontier as a leader in multi-chain operability\nArchitected and implemented native DeFi applications, bringing cutting-edge DeFi functionality directly to users\nSpearheaded the development of cross-chain bridges, enabling seamless asset transfer between different blockchains",
-    },
-    {
-      company: "Elsa",
-      link: "https://heyelsa.ai",
-      badges: ["AI", "Crypto"],
-      title: "Advisor & Lead Architect",
-      logo: "/images/logos/ElsaLogo.png",
-      start: 2024,
-      end: null,
-      description:
-        "Provided strategic guidance and architectural expertise for Elsa, an AI-powered crypto concierge platform\nAdvised on the development of a sophisticated natural language interface for seamless, intent-based interactions with crypto platforms\nContributed to the design of an advanced multi-chain asset management system supporting diverse blockchain networks\nGuided the implementation of AI-driven market analysis and trading strategy algorithms\nOversaw the architectural design of an automated, intent-based transaction execution system\nContributed to the creation of an adaptive educational resource system for crypto concepts",
-    },
-    {
-      company: "Selfchain",
-      link: "https://selfchain.xyz",
-      badges: ["Chain", "Intent"],
-      title: "Chief Technology Officer",
-      logo: "/images/logos/SelfChainLogo.png",
-      start: 2023,
-      end: null,
-      description:
-        "Developed an innovative blockchain platform focusing on revolutionizing Web3 access\nImplemented a modular intent-centric access layer for intuitive blockchain interactions\nDesigned keyless wallet infrastructure, enhancing security and user experience\nIntegrated LLM-powered intent interpretation for natural blockchain interactions",
-    },
-  ],
-  advisory: [
-    "Providing strategic guidance and technical expertise to innovative blockchain projects:",
-    {
-      company: "Unmarshal",
-      link: "https://unmarshal.io/",
+      "Led the development of smart contracts for Oddz protocol, creating a comprehensive options trading platform with advanced features for purchase, staking, and liquidity provisioning\nImplemented robust testing infrastructure with comprehensive unit, static, and integration testing using hardhat framework with mocha, chai and solidity coverage\nPioneered research on derivative trading in the crypto ecosystem, building a protocol with yield generation mechanisms and enhanced trading capabilities\nEngineered seamless integrations with third-party SDKs, expanding platform functionality and interoperability\nImplemented innovative gasless transactions using OpenZeppelin Defender and Biconomy relayers, significantly improving user experience\nOrchestrated the protocol upgrade to v2 with new features based on community feedback, demonstrating responsive and user-focused development"
     },
     {
       company: "Novastro",
       link: "https://www.novastro.xyz/",
+      badges: ["Predictions", "Crypto", "DeFi", "Staking"],
+      title: "Lead Blockchain Engineer",
+      logo: "/images/logos/NovastroLogo.png",
+      start: 2022,
+      end: null,
+      description:
+      "Architected revolutionary prediction market protocols for Nexter Finance, integrating Classic and NoLoss prediction systems with cross-protocol yield generation via Aave, Stader, and Quickswap\nPioneered protocol deployments across cutting-edge L2 ecosystems including Arbitrum, Optimism, zkSync, and Mantle, positioning Nexter at the forefront of blockchain scalability\nEngineered a sophisticated automation framework leveraging Openzeppelin, Chainlink Keepers, and Gelato network, creating a self-executing DeFi ecosystem\nCultivated and mentored a high-performing technical team from inception, establishing Nexter as an innovation hub while developing comprehensive subgraph infrastructure\nDesigned an enterprise-grade API architecture using GoLang while establishing rigorous security standards through strategic partnerships with top-tier audit vendors"
     },
     {
-      company: "Bitarch",
-      link: "https://bitarch.io",
-    },
-    {
-      company: "Surge",
-      link: "https://surge.build/",
+      company: "BitArch",
+      link: "https://www.bitarch.io/",
+      badges: ["Cross-Chain", "Bridging", "Chain Abstraction"],
+      title: "Chief Technology Officer",
+      logo: "/images/logos/BitArchLogo.png",
+      start: 2024,
+      end: null,
+      description:
+      "Led the development of BitArch's revolutionary cross-chain bridge aggregator, establishing a unified gateway with advanced chain abstraction technology across four major ecosystems: Ethereum, Solana, Cosmos, and Bitcoin\nArchitected a secure, high-throughput protocol that optimizes swap routes across 15+ bridges, significantly reducing fees and transaction times while enhancing capital efficiency\nOrchestrated strategic integrations with key infrastructure providers across diverse blockchain architectures, creating the industry's most comprehensive cross-chain solution with seamless user experience\nBuilt and mentored a distributed technical team of blockchain specialists, establishing BitArch as the leading innovator in cross-chain interoperability infrastructure"
     },
   ],
   skills: [
@@ -98,35 +79,28 @@ export const RESUME_DATA = {
     "Cryptography",
     "DeFi",
     "Smart Contracts",
-    "LLM",
-    "Machine Learning",
     "Multi-chain",
     "TypeScript",
-    "Python",
-    "Go",
-    "Rust"
+    "Solidity",
+    "Move",
+    "Nodejs"
   ],
   projects: [],
   experience: [
     {
-      "role": "UI Consultant",
-      "company": "Care.com",
-      "period": "2013 - 2020"
+      "role": "Data Engineer",
+      "company": "Rakuten",
+      "period": "2020 - 2021"
     },
     {
-      "role": "Front End Engineer",
-      "company": "Cleartrip.com",
-      "period": "2012 - 2013"
-    },
-    {
-      "role": "Web UI Developer",
-      "company": "Apostek India Pvt Ltd.",
-      "period": "2010 - 2012"
+      "role": "Software Developer",
+      "company": "OpenText",
+      "period": "2018 - 2020"
     },
     {
       "role": "Technical Associate",
-      "company": "Tech Mahindra Ltd",
-      "period": "2007 - 2010"
+      "company": "Tata Consultancy Services",
+      "period": "2015 - 2018"
     }
     
   ],

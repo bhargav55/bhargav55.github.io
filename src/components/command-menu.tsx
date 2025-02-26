@@ -42,7 +42,7 @@ const convertToPDF = async () => {
     pdf.addImage(imgData, "PNG", 0, 0, pdfWidth, pdfHeight);
 
     // Save the PDF document
-    pdf.save("vetri.pdf");
+    pdf.save("bhargav.pdf");
   } else {
     console.error("Main element not found");
   }
