@@ -70,10 +70,10 @@ export const RESUME_DATA = {
       start: 2023,
       end: 2023,
       description:
-      "Led the implementation of Account Abstraction (ERC4337) across multiple blockchains including Polygon, Avalanche subnet, and Hyperledger Besu, revolutionizing user onboarding and transaction experiences\nDeveloped sophisticated in-house infrastructure integrating skandha bundlers, creating a robust foundation for advanced blockchain functionality\nArchitected cutting-edge smart contracts for asset tokenization in trade finance, enabling institutional-grade financial instruments on blockchain\nEngineered a high-performance scaling solution capable of processing millions of tokenized asset transactions for major financial institutions\nCreated a powerful custom indexing system for EVM chains using TypeScript, GraphQL and MongoDB, providing comprehensive data analytics capabilities"
+      "Led the implementation of Account Abstraction (ERC4337) across multiple blockchains including Polygon, Avalanche subnet, and Hyperledger Besu, revolutionizing user onboarding and transaction experiences\nDeveloped sophisticated in-house infrastructure integrating skandha bundlers, creating a robust foundation for advanced blockchain functionality\nArchitected smart contracts for asset tokenization in trade finance, enabling institutional-grade financial instruments on blockchain\nEngineered a high-performance scaling solution capable of processing millions of tokenized asset transactions for major financial institutions\nCreated a powerful custom indexing system for EVM chains using TypeScript, GraphQL and MongoDB, providing comprehensive data analytics capabilities"
     },
     {
-      company: "BitArch",
+      company: "Bitarch",
       link: "https://www.bitarch.io/",
       badges: ["Cross-Chain", "Bridge"],
       title: "Chief Technology Officer",
@@ -81,7 +81,7 @@ export const RESUME_DATA = {
       start: 2024,
       end: null,
       description:
-      "Led the development of BitArch's revolutionary cross-chain bridge aggregator, implementing state-of-the-art chain abstraction technology that seamlessly connects Ethereum, Solana, Cosmos, and Bitcoin ecosystems\nArchitected a secure, high-throughput protocol with advanced MEV protection that optimizes swap routes across 15+ bridges, reducing transaction costs by 40% and confirmation times by 65%\nDeveloped a comprehensive cross-chain swap SDK and API suite with standardized interfaces, enabling third-party DeFi applications to seamlessly integrate BitArch's cross-chain functionalities"
+      "Led the development of BitArch's revolutionary cross-chain bridge aggregator, implementing state-of-the-art chain abstraction technology that seamlessly connects Ethereum, Solana, Cosmos, and Bitcoin ecosystems\nArchitected a secure, high-throughput protocol with advanced MEV protection that optimizes swap routes across 15+ bridges. \nDeveloped a comprehensive cross-chain swap SDK and API suite with standardized interfaces, enabling third-party DeFi applications to seamlessly integrate BitArch's cross-chain functionalities"
     },
   ],
   skills: [
