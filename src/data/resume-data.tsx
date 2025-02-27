@@ -42,7 +42,7 @@ export const RESUME_DATA = {
     {
       company: "Oddz",
       link: "https://www.oddz.fi/",
-      badges: ["Derivatives, Options trading"],
+      badges: ["Derivatives trading"],
       title: "Blockchain Engineer",
       logo: "/images/logos/OddzLogo.png",
       start: 2021,
@@ -53,7 +53,7 @@ export const RESUME_DATA = {
     {
       company: "Novastro",
       link: "https://www.novastro.xyz/",
-      badges: ["Predictions", "Crypto", "DeFi", "Staking"],
+      badges: ["Prediction", "Staking"],
       title: "Lead Blockchain Engineer",
       logo: "/images/logos/NovastroLogo.png",
       start: 2022,
@@ -64,7 +64,7 @@ export const RESUME_DATA = {
     {
       company: "Xalts",
       link: "https://www.xalts.io/",
-      badges: ["Tokenization, Account Abstraction"],
+      badges: ["Account Abstraction"],
       title: "Lead Blockchain Engineer",
       logo: "/images/logos/XaltsLogo1.png",
       start: 2023,
@@ -75,7 +75,7 @@ export const RESUME_DATA = {
     {
       company: "BitArch",
       link: "https://www.bitarch.io/",
-      badges: ["Cross-Chain", "Bridging", "Chain Abstraction"],
+      badges: ["Cross-Chain", "Bridge"],
       title: "Chief Technology Officer",
       logo: "/images/logos/BitArchLogo.png",
       start: 2024,
