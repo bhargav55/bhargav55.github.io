@@ -94,7 +94,8 @@ export const RESUME_DATA = {
     "TypeScript",
     "Solidity",
     "Move",
-    "Nodejs"
+    "Nodejs",
+    "GoLang"
   ],
   projects: [],
   experience: [
