@@ -48,7 +48,7 @@ export const RESUME_DATA = {
       start: 2024,
       end: null,
       description:
-      "Led the development of BitArch's revolutionary cross-chain bridge aggregator, implementing state-of-the-art chain abstraction technology that seamlessly connects Ethereum, Solana, Cosmos, and Bitcoin ecosystems\nArchitected a secure, high-throughput protocol that optimizes swap routes across 15+ bridges. \nDeveloped a comprehensive cross-chain swap SDK and API suite with standardized interfaces, enabling third-party DeFi applications to seamlessly integrate BitArch's cross-chain functionalities"
+      "Led the development of BitArch's revolutionary cross-chain bridge aggregator, implementing state-of-the-art chain abstraction technology that seamlessly connects Ethereum, Solana, Cosmos, and Bitcoin ecosystems\nArchitected a secure, high-throughput protocol that optimizes swap routes across 15+ bridges\nDeveloped a comprehensive cross-chain swap SDK and API suite with standardized interfaces, enabling third-party DeFi applications to seamlessly integrate BitArch's cross-chain functionalities\nDeveloped smart contracts and backend to build Dex and memecoin protocol in Movement and Solana blockchain"
     },
     {
       company: "Xalts",
