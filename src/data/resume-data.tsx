@@ -40,26 +40,15 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Oddz",
-      link: "https://www.oddz.fi/",
-      badges: ["Derivatives trading"],
-      title: "Blockchain Engineer",
-      logo: "/images/logos/OddzLogo.png",
-      start: 2021,
+      company: "Bitarch",
+      link: "https://www.bitarch.io/",
+      badges: ["Cross-Chain", "Bridge"],
+      title: "Engineering Architect",
+      logo: "/images/logos/BitArchLogo.png",
+      start: 2024,
       end: null,
       description:
-      "Led the development of smart contracts for Oddz protocol, creating a comprehensive options trading platform with advanced features for purchase, staking, and liquidity provisioning\nImplemented robust testing infrastructure with comprehensive unit, static, and integration testing using hardhat framework with mocha, chai and solidity coverage\nPioneered research on derivative trading in the crypto ecosystem, building a protocol with yield generation mechanisms and enhanced trading capabilities\nEngineered seamless integrations with third-party SDKs, expanding platform functionality and interoperability\nImplemented innovative gasless transactions using OpenZeppelin Defender and Biconomy relayers, significantly improving user experience\nOrchestrated the protocol upgrade to v2 with new features based on community feedback, demonstrating responsive and user-focused development"
-    },
-    {
-      company: "Novastro",
-      link: "https://www.novastro.xyz/",
-      badges: ["Prediction", "Staking"],
-      title: "Lead Blockchain Engineer",
-      logo: "/images/logos/NovastroLogo.png",
-      start: 2022,
-      end: null,
-      description:
-      "Architected revolutionary prediction market protocols for Novastro, integrating Classic and NoLoss prediction systems with cross-protocol yield generation via Aave, Stader, and Quickswap\nPioneered protocol deployments across cutting-edge L2 ecosystems including Arbitrum, Optimism, zkSync, and Mantle, positioning Novastro at the forefront of blockchain scalability\nEngineered a sophisticated automation framework leveraging Openzeppelin, Chainlink Keepers, and Gelato network, creating a self-executing DeFi ecosystem\nCultivated and mentored a high-performing technical team from inception, establishing Novastro as an innovation hub while developing comprehensive subgraph infrastructure\nDesigned an enterprise-grade API architecture using GoLang while establishing rigorous security standards through strategic partnerships with top-tier audit vendors"
+      "Led the development of BitArch's revolutionary cross-chain bridge aggregator, implementing state-of-the-art chain abstraction technology that seamlessly connects Ethereum, Solana, Cosmos, and Bitcoin ecosystems\nArchitected a secure, high-throughput protocol that optimizes swap routes across 15+ bridges. \nDeveloped a comprehensive cross-chain swap SDK and API suite with standardized interfaces, enabling third-party DeFi applications to seamlessly integrate BitArch's cross-chain functionalities"
     },
     {
       company: "Xalts",
@@ -73,16 +62,30 @@ export const RESUME_DATA = {
       "Led the implementation of Account Abstraction (ERC4337) across multiple blockchains including Polygon, Avalanche subnet, and Hyperledger Besu, revolutionizing user onboarding and transaction experiences\nDeveloped sophisticated in-house infrastructure integrating skandha bundlers, creating a robust foundation for advanced blockchain functionality\nArchitected smart contracts for asset tokenization in trade finance, enabling institutional-grade financial instruments on blockchain\nEngineered a high-performance scaling solution capable of processing millions of tokenized asset transactions for major financial institutions\nCreated a powerful custom indexing system for EVM chains using TypeScript, GraphQL and MongoDB, providing comprehensive data analytics capabilities"
     },
     {
-      company: "Bitarch",
-      link: "https://www.bitarch.io/",
-      badges: ["Cross-Chain", "Bridge"],
-      title: "Engineering Architect",
-      logo: "/images/logos/BitArchLogo.png",
-      start: 2024,
+      company: "Novastro",
+      link: "https://www.novastro.xyz/",
+      badges: ["Prediction", "Staking"],
+      title: "Lead Blockchain Engineer",
+      logo: "/images/logos/NovastroLogo.png",
+      start: 2022,
       end: null,
       description:
-      "Led the development of BitArch's revolutionary cross-chain bridge aggregator, implementing state-of-the-art chain abstraction technology that seamlessly connects Ethereum, Solana, Cosmos, and Bitcoin ecosystems\nArchitected a secure, high-throughput protocol that optimizes swap routes across 15+ bridges. \nDeveloped a comprehensive cross-chain swap SDK and API suite with standardized interfaces, enabling third-party DeFi applications to seamlessly integrate BitArch's cross-chain functionalities"
+      "Architected revolutionary prediction market protocols for Novastro, integrating Classic and NoLoss prediction systems with cross-protocol yield generation via Aave, Stader, and Quickswap\nPioneered protocol deployments across cutting-edge L2 ecosystems including Arbitrum, Optimism, zkSync, and Mantle, positioning Novastro at the forefront of blockchain scalability\nEngineered a sophisticated automation framework leveraging Openzeppelin, Chainlink Keepers, and Gelato network, creating a self-executing DeFi ecosystem\nCultivated and mentored a high-performing technical team from inception, establishing Novastro as an innovation hub while developing comprehensive subgraph infrastructure\nDesigned an enterprise-grade API architecture using GoLang while establishing rigorous security standards through strategic partnerships with top-tier audit vendors"
     },
+    {
+      company: "Oddz",
+      link: "https://www.oddz.fi/",
+      badges: ["Derivatives trading"],
+      title: "Blockchain Engineer",
+      logo: "/images/logos/OddzLogo.png",
+      start: 2021,
+      end: null,
+      description:
+      "Led the development of smart contracts for Oddz protocol, creating a comprehensive options trading platform with advanced features for purchase, staking, and liquidity provisioning\nImplemented robust testing infrastructure with comprehensive unit, static, and integration testing using hardhat framework with mocha, chai and solidity coverage\nPioneered research on derivative trading in the crypto ecosystem, building a protocol with yield generation mechanisms and enhanced trading capabilities\nEngineered seamless integrations with third-party SDKs, expanding platform functionality and interoperability\nImplemented innovative gasless transactions using OpenZeppelin Defender and Biconomy relayers, significantly improving user experience\nOrchestrated the protocol upgrade to v2 with new features based on community feedback, demonstrating responsive and user-focused development"
+    },
+   
+   
+   
   ],
   skills: [
     "Blockchain",
