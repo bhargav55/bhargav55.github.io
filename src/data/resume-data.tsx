@@ -76,7 +76,7 @@ export const RESUME_DATA = {
       company: "Bitarch",
       link: "https://www.bitarch.io/",
       badges: ["Cross-Chain", "Bridge"],
-      title: "Chief Technology Officer",
+      title: "Engineering Architect",
       logo: "/images/logos/BitArchLogo.png",
       start: 2024,
       end: null,
