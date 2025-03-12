@@ -3,7 +3,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Bhargav Kacharla",
   initials: "BK",
-  location: "Dharmavaram, India",
+  location: "Bangalore, India",
   locationLink: "",
   about: "Engineer | Architect",
   summary:
@@ -98,7 +98,8 @@ export const RESUME_DATA = {
     "Solidity",
     "Move",
     "Nodejs",
-    "GoLang"
+    "GoLang",
+    "Rust"
   ],
   projects: [],
   experience: [
