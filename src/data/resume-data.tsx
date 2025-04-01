@@ -51,17 +51,6 @@ export const RESUME_DATA = {
       "Led the development of BitArch's revolutionary cross-chain bridge aggregator, implementing state-of-the-art chain abstraction technology that seamlessly connects Ethereum, Solana, Cosmos, and Bitcoin ecosystems\nArchitected a secure, high-throughput protocol that optimizes swap routes across 15+ bridges\nDeveloped a comprehensive cross-chain swap SDK and API suite with standardized interfaces, enabling third-party DeFi applications to seamlessly integrate BitArch's cross-chain functionalities\nDeveloped smart contracts and backend to build Dex and memecoin protocol in Movement and Solana blockchain"
     },
     {
-      company: "Xalts",
-      link: "https://www.xalts.io/",
-      badges: ["Account Abstraction"],
-      title: "Lead Blockchain Engineer",
-      logo: "/images/logos/XaltsLogo1.png",
-      start: 2023,
-      end: 2023,
-      description:
-      "Led the implementation of Account Abstraction (ERC4337) across multiple blockchains including Polygon, Avalanche subnet, and Hyperledger Besu, revolutionizing user onboarding and transaction experiences\nDeveloped sophisticated in-house infrastructure integrating skandha bundlers, creating a robust foundation for advanced blockchain functionality\nArchitected smart contracts for asset tokenization in trade finance, enabling institutional-grade financial instruments on blockchain\nEngineered a high-performance scaling solution capable of processing millions of tokenized asset transactions for major financial institutions\nCreated a powerful custom indexing system for EVM chains using TypeScript, GraphQL and MongoDB, providing comprehensive data analytics capabilities"
-    },
-    {
       company: "Novastro",
       link: "https://www.novastro.xyz/",
       badges: ["Prediction", "Staking"],
