@@ -5,7 +5,7 @@ export const RESUME_DATA = {
   initials: "BK",
   location: "Bangalore, India",
   locationLink: "",
-  about: "Engineer | Architect",
+  about: "Blockchain/Backend Engineer",
   summary:
     "Engineer with extensive experience in blockchain, DeFi, and cross-chain powered crypto applications. Proven track record in developing multi-chain solutions and enhancing Web3 accessibility.",
   avatarUrl: "",
@@ -43,7 +43,7 @@ export const RESUME_DATA = {
       company: "Bitarch",
       link: "https://www.bitarch.io/",
       badges: ["Cross-Chain", "Bridge"],
-      title: "Engineering Architect",
+      title: "Engineering",
       logo: "/images/logos/BitArchLogo.png",
       start: 2024,
       end: null,
