@@ -40,17 +40,6 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Bitarch",
-      link: "https://www.bitarch.io/",
-      badges: ["Cross-Chain", "Bridge"],
-      title: "Engineering",
-      logo: "/images/logos/BitArchLogo.png",
-      start: 2024,
-      end: null,
-      description:
-      "Led the development of BitArch's revolutionary cross-chain bridge aggregator, implementing state-of-the-art chain abstraction technology that seamlessly connects Ethereum, Solana, Cosmos, and Bitcoin ecosystems\nArchitected a secure, high-throughput protocol that optimizes swap routes across 15+ bridges\nDeveloped a comprehensive cross-chain swap SDK and API suite with standardized interfaces, enabling third-party DeFi applications to seamlessly integrate BitArch's cross-chain functionalities\nDeveloped smart contracts and backend to build decentralised exchange Warpgate in Movement chain with Aptos Move.\nDeveloped Memecoin launchpad Hatchy.fun in Solana with rust and Warpgate.fun in Aptos Move.\nBuilt backend analytics system that indexed Movement blockchain events in real-time, enabling comprehensive trading metrics, liquidity provider performance tracking, and protocol-wide statistics."
-    },
-    {
       company: "Novastro",
       link: "https://www.novastro.xyz/",
       badges: ["Prediction", "Staking"],
@@ -59,7 +48,18 @@ export const RESUME_DATA = {
       start: 2022,
       end: null,
       description:
-      "Architected revolutionary prediction market protocols for Novastro, integrating Classic and NoLoss prediction systems with cross-protocol yield generation via Aave, Stader, and Quickswap\nPioneered protocol deployments across cutting-edge L2 ecosystems including Arbitrum, Optimism, zkSync, and Mantle, positioning Novastro at the forefront of blockchain scalability\nEngineered a sophisticated automation framework leveraging Openzeppelin, Chainlink Keepers, and Gelato network, creating a self-executing DeFi ecosystem\nCultivated and mentored a high-performing technical team from inception, establishing Novastro as an innovation hub while developing comprehensive subgraph infrastructure\nDesigned an enterprise-grade API architecture using GoLang while establishing rigorous security standards through strategic partnerships with top-tier audit vendors"
+      "Developed RWA tokenization platform for real-estate using ERC-3643 with on-chain Compliance, identity registry for token issuance.\nArchitected and developed prediction market protocol in Solidity with cross-protocol yield generation via Aave, Stader, and Quickswap.\nDeveloped subgraphs for indexing events with graph protocol.\nLed the development of Bitarch.io revolutionary cross-chain bridge aggregator protocol that optimizes cross-chain swap routes across 15+ bridges.\nDeveloped a comprehensive cross-chain swap SDK and API suite with standardized interfaces, enabling third-party DeFi applications to seamlessly integrate BitArch's cross-chain functionalities\nDeveloped smart contracts and backend to build decentralised exchange Warpgate.pro in with Aptos Move.\nDeveloped token launchpad Hatchy.fun in Solana with rust.\nBuilt a backend analytics system that indexed blockchain events in real-time, enabling comprehensive trading metrics, liquidity provider performance tracking, and protocol-wide statistics."
+    },
+    {
+      company: "Xalts",
+      link: "https://www.xalts.io/",
+      badges: ["Account Abstraction"],
+      title: "Blockchain Engineer",
+      logo: "/images/logos/XaltsLogo1.png",
+      start: 2024,
+      end: 2024,
+      description:
+      "Implemented Account abstraction(ERC4337) for EVM chains like Polygon, Avalanche subnet and Hyperledger Besu.\nDeveloped in-house infrastructure for Account abstraction with skandha bundlers.\nArchitected smart contracts for asset tokenization for financial institutions.\nBuilt in-house indexer for EVM chains with Typescript, GraphQL and MongoDB."
     },
     {
       company: "Oddz",
@@ -68,9 +68,9 @@ export const RESUME_DATA = {
       title: "Blockchain Engineer",
       logo: "/images/logos/OddzLogo.png",
       start: 2021,
-      end: null,
+      end: 2022,
       description:
-      "Led the development of smart contracts for Oddz protocol, creating a comprehensive options trading platform with advanced features for purchase, staking, and liquidity provisioning\nImplemented robust testing infrastructure with comprehensive unit, static, and integration testing using hardhat framework with mocha, chai and solidity coverage\nPioneered research on derivative trading in the crypto ecosystem, building a protocol with yield generation mechanisms and enhanced trading capabilities\nEngineered seamless integrations with third-party SDKs, expanding platform functionality and interoperability\nImplemented innovative gasless transactions using OpenZeppelin Defender and Biconomy relayers, significantly improving user experience\nOrchestrated the protocol upgrade to v2 with new features based on community feedback, demonstrating responsive and user-focused development"
+      "Led the development of smart contracts in Solidity for Oddz protocol(https://www.oddz.fi/), creating a comprehensive options trading platform with advanced features for purchase, staking, and liquidity provisioning\nPioneered research on derivative trading in the crypto ecosystem, building a protocol with yield generation mechanisms and enhanced trading capabilities\nEngineered seamless integrations with third-party SDKs, expanding platform functionality and interoperability\nImplemented innovative gasless transactions using OpenZeppelin Defender and Biconomy relayers, significantly improving user experience.\nEngineered a sophisticated automation framework leveraging Openzeppelin, Chainlink Keepers, and Gelato network, creating a self-executing DeFi ecosystem"
     },
    
    
@@ -81,13 +81,14 @@ export const RESUME_DATA = {
     "Web3",
     "Cryptography",
     "DeFi",
+    "Cross-chain",
+    "Staking",
     "Smart Contracts",
-    "Multi-chain",
+    "Smart Contract Security",
     "TypeScript",
     "Solidity",
     "Move",
     "Nodejs",
-    "GoLang",
     "Rust"
   ],
   projects: [],
