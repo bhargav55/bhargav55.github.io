@@ -43,12 +43,12 @@ export const RESUME_DATA = {
       company: "Novastro",
       link: "https://www.novastro.xyz/",
       badges: ["Prediction", "Staking"],
-      title: "Core Engineer",
+      title: "Protocol Engineer",
       logo: "/images/logos/NovastroLogo.png",
       start: 2022,
       end: null,
       description:
-      "Developed RWA tokenization platform for real-estate using ERC-3643 with on-chain Compliance, identity registry for token issuance.\nArchitected and developed prediction market protocol in Solidity with cross-protocol yield generation via Aave, Stader, and Quickswap.\nDeveloped subgraphs for indexing events with graph protocol.\nLed the development of Bitarch.io revolutionary cross-chain bridge aggregator protocol that optimizes cross-chain swap routes across 15+ bridges.\nDeveloped a comprehensive cross-chain swap SDK and API suite with standardized interfaces, enabling third-party DeFi applications to seamlessly integrate BitArch's cross-chain functionalities\nDeveloped smart contracts and backend to build decentralised exchange Warpgate.pro in with Aptos Move.\nDeveloped token launchpad Hatchy.fun in Solana with rust.\nBuilt a backend analytics system that indexed blockchain events in real-time, enabling comprehensive trading metrics, liquidity provider performance tracking, and protocol-wide statistics."
+      "Developed smart contracts in Solidity for RWA tokenization platform using ERC-3643 with on-chain Compliance, identity registry for token issuance.\nArchitected and developed prediction market protocol.\nArchitected and developed prediction market protocol in Solidity with cross-protocol yield generation.\nImplemented yield strategies to generate liquidity yield from Lending and Staking protocols like Aave and Stader. \nLed the development of Bitarch.io revolutionary cross-chain bridge aggregator protocol that optimizes cross-chain swap routes across 15+ bridges.\nDeveloped a comprehensive cross-chain swap SDK and API suite with standardized interfaces, enabling third-party DeFi applications to seamlessly integrate BitArch's cross-chain functionalities\nDeveloped smart contracts and backend to build decentralised exchange Warpgate.pro in with Aptos Move.\nDeveloped token launchpad Hatchy.fun in Solana with rust.\nBuilt a backend analytics system that indexed blockchain events in real-time, enabling comprehensive trading metrics, liquidity provider performance tracking, and protocol-wide statistics.\nDeveloped subgraphs for indexing events in EVM chains with graph protocol."
     },
     {
       company: "Xalts",
