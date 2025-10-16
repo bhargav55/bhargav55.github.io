@@ -40,13 +40,24 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Nunchi.trade",
+      link: "https://nunchi.trade/",
+      badges: ["Perpetual", "Derivative"],
+      title: "Solidity Engineer",
+      logo: "/images/logos/nunchiLogo.png",
+      start: 2024,
+      end: 2025,
+      description:
+      "Architected & implemented Nunchi’s CLOB + AMM hybrid for perp trading on yield-bearing assets.\nDeveloped smart contracts for order matching and execution, perp pricing mechanisms with funding rates and liquidations.\nIntegrated Pyth, Stork and Blocksense oracles for price feeds of yield bearing assets.\nDeveloped AMM with concentrated bins for market making with proxy orders for yield generation for Nunchi Vaults."
+    },
+    {
       company: "Novastro",
       link: "https://www.novastro.xyz/",
       badges: ["Prediction", "Staking"],
       title: "Protocol Engineer",
       logo: "/images/logos/NovastroLogo.png",
-      start: 2022,
-      end: null,
+      start: 2024,
+      end: 2025,
       description:
       "Developed smart contracts in Solidity for RWA tokenization platform using ERC-3643 with on-chain Compliance, identity registry for token issuance.\nArchitected and developed prediction market protocol.\nArchitected and developed prediction market protocol in Solidity with cross-protocol yield generation.\nImplemented yield strategies to generate liquidity yield from Lending and Staking protocols like Aave and Stader. \nLed the development of Bitarch.io revolutionary cross-chain bridge aggregator protocol that optimizes cross-chain swap routes across 15+ bridges.\nDeveloped a comprehensive cross-chain swap SDK and API suite with standardized interfaces, enabling third-party DeFi applications to seamlessly integrate BitArch's cross-chain functionalities\nDeveloped smart contracts and backend to build decentralised exchange Warpgate.pro in with Aptos Move.\nDeveloped token launchpad Hatchy.fun in Solana with rust.\nBuilt a backend analytics system that indexed blockchain events in real-time, enabling comprehensive trading metrics, liquidity provider performance tracking, and protocol-wide statistics.\nDeveloped subgraphs for indexing events in EVM chains with graph protocol."
     },
