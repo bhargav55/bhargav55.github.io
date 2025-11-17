@@ -46,7 +46,7 @@ export const RESUME_DATA = {
       title: "Solidity Engineer",
       logo: "/images/logos/nunchiLogo.png",
       start: 2025,
-      end: "" ,
+      end: "Present" ,
       description:
       "Architected & implemented Nunchi’s CLOB + AMM hybrid for perp trading on yield-bearing assets.\nDeveloped smart contracts for order matching and execution, perp pricing mechanisms with funding rates and liquidations.\nIntegrated Pyth, Stork and Blocksense oracles for price feeds of yield bearing assets.\nDeveloped AMM with concentrated bins for market making with proxy orders for yield generation for Nunchi Vaults."
     },
