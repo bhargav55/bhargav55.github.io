@@ -43,12 +43,12 @@ export const RESUME_DATA = {
       company: "Nunchi.trade",
       link: "https://nunchi.trade/",
       badges: ["Perpetual", "Derivative"],
-      title: "Solidity Engineer",
+      title: "Protocol Engineer",
       logo: "/images/logos/nunchiLogo.png",
       start: 2025,
       end: "Present" ,
       description:
-      "Architected & implemented Nunchi’s CLOB + AMM hybrid for perp trading on yield-bearing assets.\nDeveloped smart contracts for order matching and execution, perp pricing mechanisms with funding rates and liquidations.\nIntegrated Pyth, Stork and Blocksense oracles for price feeds of yield bearing assets.\nDeveloped AMM with concentrated bins for market making with proxy orders for yield generation for Nunchi Vaults."
+      "Architected & implemented Nunchi’s CLOB + AMM hybrid for perp trading on yield-bearing assets.\nDeveloped smart contracts for order matching and execution, perp pricing mechanisms with funding rates and liquidations.\nIntegrated Pyth, Stork and Blocksense oracles for price feeds of yield bearing assets.\nDeveloped AMM with concentrated bins for market making with proxy orders for yield generation for Nunchi Vaults.\nDeveloped AI native CLI tool for liquidation and Take Profit/Stop Loss orders where agents can run these jobs.\nBuilt Agent marketplace using ERC8183 where agents can register to protocol jobs like liquidation, complete the job and submit proof of completion for on-chain incentives."
     },
     {
       company: "Novastro",
