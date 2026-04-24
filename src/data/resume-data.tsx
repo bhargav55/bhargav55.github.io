@@ -48,7 +48,7 @@ export const RESUME_DATA = {
       start: 2025,
       end: "Present" ,
       description:
-      "Architected & implemented Nunchi’s CLOB + AMM hybrid for perp trading on yield-bearing assets.\nDeveloped smart contracts for order matching and execution, perp pricing mechanisms with funding rates and liquidations.\nIntegrated Pyth, Stork and Blocksense oracles for price feeds of yield bearing assets.\nDeveloped AMM with concentrated bins for market making with proxy orders for yield generation for Nunchi Vaults.\nDeveloped AI native CLI tool for liquidation and Take Profit/Stop Loss orders where agents can run these jobs.\nBuilt Agent marketplace using ERC8183 where agents can register to protocol jobs like liquidation, complete the job and submit proof of completion for on-chain incentives."
+      "Architected an on-chain CLOB + AMM matching engine for perpetuals on yield-bearing assets, letting traders hedge funding-rate and borrow-rate exposure on any asset.\nBuilt the core Solidity stack - orderbook matching, Clearing House settlement, risk engine, and liquidation flow — integrated with Pyth and Stork oracles for price feeds.\nWorked with Quantstamp and Zellic on external audits, secured contracts with Slither and Trail of Bits tooling and authored in-house Claude Code skills for developer workflow.\nShipped an AI-native CLI that lets autonomous agents execute liquidation and TP/SL jobs against live positions.\nDesigned an on-chain agent marketplace (ERC-8004 / ERC-8183) where agents register for protocol jobs, complete them, and submit proof-of-completion to claim incentives."
     },
     {
       company: "Novastro",
