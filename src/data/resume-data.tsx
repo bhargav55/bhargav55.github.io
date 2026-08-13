@@ -5,14 +5,14 @@ export const RESUME_DATA = {
   initials: "BK",
   location: "Bangalore, India",
   locationLink: "",
-  about: "Blockchain/Backend Engineer",
+  about: "Staff Backend Engineer",
   summary:
-    "Engineer with extensive experience in blockchain, DeFi, and cross-chain powered crypto applications. Proven track record in developing multi-chain solutions and enhancing Web3 accessibility.",
+    "Staff backend engineer with 10 years of experience building distributed systems, scalable backend systems for AI applications and trading infrastructure. Experienced in TypeScript, Rust, Kafka, Redis, Postgres/MongoDB, event-driven systems, RAG, evals, and agent execution flows. Built production-grade systems across ingestion, orchestration, retries, monitoring, data storage, and reliability.",
   avatarUrl: "",
   personalWebsiteUrl: "",
   contact: {
     email: "kacharlabhargav21@gmail.com",
-    tel: "",
+    tel: "+91-9146703115",
     social: [
       {
         name: "GitHub",
@@ -40,85 +40,95 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Nunchi.trade",
+      company: "Nunchi",
       link: "https://nunchi.trade/",
-      badges: ["Perpetual", "Derivative"],
-      title: "Protocol Engineer",
+      badges: ["Event-Driven Systems", "Kafka", "Matching Engine"],
+      title: "Staff Engineer (AI Systems)",
       logo: "/images/logos/nunchiLogo.png",
-      start: 2025,
-      end: "Present" ,
+      start: "Jul '25",
+      end: "May '26",
       description:
-      "Architected an on-chain CLOB + AMM matching engine for perpetuals on yield-bearing assets, letting traders hedge funding-rate and borrow-rate exposure on any asset.\nBuilt the core Solidity stack - orderbook matching, Clearing House settlement, risk engine, and liquidation flow — integrated with Pyth and Stork oracles for price feeds.\nWorked with Quantstamp and Zellic on external audits, secured contracts with Slither and Trail of Bits tooling and authored in-house Claude Code skills for developer workflow.\nShipped an AI-native CLI that lets autonomous agents execute liquidation and TP/SL jobs against live positions.\nDesigned an on-chain agent marketplace (ERC-8004 / ERC-8183) where agents register for protocol jobs, complete them, and submit proof-of-completion to claim incentives."
+      "Sustained 1000 events/min in a real-time indexing pipeline streaming contract events through Kafka powering a low-latency trading platform.\nBuilt the central limit orderbook with matching engine at the core of the exchange, along with clearing house settlement handling 200 orders/minute.\nBuilt idempotency workers that consume Kafka events and fanout to different components in the systems like notification, position updates and leaderboard analytics.\nOwned core trading services (order matching, risk, automated settlement), keeping state queryable at low latency across distributed systems.\nDesigned an autonomous-agent marketplace where agents claim and execute production jobs and are paid on verified proof of completion."
     },
     {
       company: "Novastro",
       link: "https://www.novastro.xyz/",
-      badges: ["Prediction", "Staking"],
-      title: "Protocol Engineer",
+      badges: ["Event-Driven Systems", "Wallet Management"],
+      title: "Senior Backend Engineer",
       logo: "/images/logos/NovastroLogo.png",
-      start: 2024,
-      end: 2025,
+      start: "Apr '24",
+      end: "Jun '25",
       description:
-      "Developed smart contracts in Solidity for RWA tokenization platform using ERC-3643 with on-chain Compliance, identity registry for token issuance.\nArchitected and developed prediction market protocol.\nArchitected and developed prediction market protocol in Solidity with cross-protocol yield generation.\nImplemented yield strategies to generate liquidity yield from Lending and Staking protocols like Aave and Stader. \nLed the development of Bitarch.io revolutionary cross-chain bridge aggregator protocol that optimizes cross-chain swap routes across 15+ bridges.\nDeveloped a comprehensive cross-chain swap SDK and API suite with standardized interfaces, enabling third-party DeFi applications to seamlessly integrate BitArch's cross-chain functionalities\nDeveloped smart contracts and backend to build decentralised exchange Warpgate.pro in with Aptos Move.\nDeveloped token launchpad Hatchy.fun in Solana with rust.\nBuilt a backend analytics system that indexed blockchain events in real-time, enabling comprehensive trading metrics, liquidity provider performance tracking, and protocol-wide statistics.\nDeveloped subgraphs for indexing events in EVM chains with graph protocol."
-    },
-    {
-      company: "Xalts",
-      link: "https://www.xalts.io/",
-      badges: ["Account Abstraction"],
-      title: "Lead Blockchain Engineer",
-      logo: "/images/logos/XaltsLogo1.png",
-      start: 2024,
-      end: 2024,
-      description:
-      "Implemented Account abstraction(ERC4337) for EVM chains like Polygon, Avalanche subnet and Hyperledger Besu.\nDeveloped in-house infrastructure for Account abstraction with skandha bundlers.\nArchitected smart contracts for asset tokenization for financial institutions.\nBuilt in-house indexer for EVM chains with Typescript, GraphQL and MongoDB."
+      "Built an in-house indexer for EVM chains using TypeScript, GraphQL, and MongoDB to stream, process, and query on-chain data for analytics.\nBuilt internal services to coordinate transaction execution across distributed systems (bundlers, relayers), implementing job scheduling, retries, and batching the transactions, increasing processing throughput 10x from 100 to 1000 TPS.\nOwned an in-house MPC wallet service that signed transactions for 50k users via distributed key shares, with no single private key ever reconstructed."
     },
     {
       company: "Oddz",
       link: "https://www.oddz.fi/",
-      badges: ["Derivatives trading"],
+      badges: ["Options", "DeFi"],
       title: "Blockchain Engineer",
       logo: "/images/logos/OddzLogo.png",
-      start: 2021,
-      end: 2022,
+      start: "Jan '21",
+      end: "Dec '23",
       description:
-      "Led the development of smart contracts in Solidity for Oddz protocol(https://www.oddz.fi/), creating a comprehensive options trading platform with advanced features for purchase, staking, and liquidity provisioning\nPioneered research on derivative trading in the crypto ecosystem, building a protocol with yield generation mechanisms and enhanced trading capabilities\nEngineered seamless integrations with third-party SDKs, expanding platform functionality and interoperability\nImplemented innovative gasless transactions using OpenZeppelin Defender and Biconomy relayers, significantly improving user experience.\nEngineered a sophisticated automation framework leveraging Openzeppelin, Chainlink Keepers, and Gelato network, creating a self-executing DeFi ecosystem"
+      "Led smart contract development for Oddz protocol (oddz.fi), an options trading platform with concentrated liquidity (Uniswap V3-style) for capital-efficient risk management, staking, and liquidity provisioning. Audited contracts are deployed to BNB Chain and Avalanche.\nDeveloped a staking platform for liquidity providers and ODDZ token holders to get maximum yield in ODDZ token along with platform fee discount.\nBuilt automation systems for options protocol workflows, including expiry handling, staking reward distribution, and dynamic risk adjustments using Chainlink Keepers and Gelato for on-chain execution maintaining 100% production uptime."
     },
-   
-   
-   
+    {
+      company: "Rakuten",
+      link: "https://www.rakuten.com/",
+      badges: ["Data Lake", "Big Data"],
+      title: "Data Engineer",
+      logo: "/images/logos/RakutenLogo.png",
+      start: "Oct '20",
+      end: "Jan '21",
+      description:
+      "Architected a data lake for Rakuten's telecom department, enabling data scientists to build intelligent models on large datasets.\nResearched big data technologies for petabyte-scale data infrastructure using MinIO and YugaByte."
+    },
+    {
+      company: "OpenText",
+      link: "https://www.opentext.com/",
+      badges: [".NET", "Angular"],
+      title: "Senior Software Engineer",
+      logo: "/images/logos/OpenTextLogo.png",
+      start: "Jul '18",
+      end: "Sep '20",
+      description:
+      "Developed REST services and enterprise web applications using .NET MVC, TypeScript, and Angular, integrating content management systems with third-party APIs."
+    },
+    {
+      company: "Tata Consultancy Services",
+      link: "https://www.tcs.com/",
+      badges: [".NET", "SQL Server"],
+      title: "Software Engineer",
+      logo: "/images/logos/TcsLogo.png",
+      start: "May '15",
+      end: "Jun '18",
+      description:
+      "Developed enterprise web applications for banking and telecom clients using C# .NET, JavaScript, and SQL Server.\nOptimized SQL Server stored procedures, reducing report generation time by 40%."
+    },
   ],
   skills: [
-    "Blockchain",
-    "Web3",
-    "Cryptography",
-    "DeFi",
-    "Cross-chain",
-    "Staking",
-    "Smart Contracts",
-    "Smart Contract Security",
     "TypeScript",
-    "Solidity",
-    "Move",
-    "Nodejs",
-    "Rust"
+    "Node.js",
+    "Go",
+    "Rust",
+    "AWS",
+    "Distributed Systems",
+    "Event-Driven Architecture",
+    "Kafka",
+    "Redis",
+    "WebSockets",
+    "Postgres",
+    "MongoDB",
+    "DynamoDB",
+    "Anthropic SDK",
+    "OpenAI SDK",
+    "Tool Calling",
+    "Vector Databases",
+    "RAG Pipelines",
+    "Agentic Workflows",
+    "Context Engineering",
+    "Structured Outputs",
+    "Eval Frameworks"
   ],
   projects: [],
-  experience: [
-    {
-      "role": "Data Engineer",
-      "company": "Rakuten",
-      "period": "2020 - 2021"
-    },
-    {
-      "role": "Software Developer",
-      "company": "OpenText",
-      "period": "2018 - 2020"
-    },
-    {
-      "role": "Technical Associate",
-      "company": "Tata Consultancy Services",
-      "period": "2015 - 2018"
-    }
-    
-  ],
 } as const;

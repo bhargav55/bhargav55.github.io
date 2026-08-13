@@ -111,15 +111,31 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline flex items-center gap-x-2" href={work.link}>
-                          <img
-                            src={work.logo}
-                            alt={`${work.company} logo`}
-                            width={16}
-                            height={16}
-                          />
-                        {work.company}
-                      </a>
+                      {work.link ? (
+                        <a className="hover:underline flex items-center gap-x-2" href={work.link}>
+                          {work.logo ? (
+                            <img
+                              src={work.logo}
+                              alt={`${work.company} logo`}
+                              width={16}
+                              height={16}
+                            />
+                          ) : null}
+                          {work.company}
+                        </a>
+                      ) : (
+                        <span className="flex items-center gap-x-2">
+                          {work.logo ? (
+                            <img
+                              src={work.logo}
+                              alt={`${work.company} logo`}
+                              width={16}
+                              height={16}
+                            />
+                          ) : null}
+                          {work.company}
+                        </span>
+                      )}
 
                       <span className="inline-flex gap-x-1">
                         {work.badges.map((badge) => (
@@ -202,28 +218,6 @@ export default function Page() {
           </div>
         </Section> */}
 
-        <Section>
-          <h2 className="text-xl font-bold">Previous Experience</h2>
-          {RESUME_DATA.experience.map((experience) => {
-            return (
-              <Card key={experience.company}>
-                <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="font-semibold leading-none">
-                      {experience.company}
-                    </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
-                      {experience.period}
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent className="mt-2 print:text-[12px]">
-                  {experience.role}
-                </CardContent>
-              </Card>
-            );
-          })}
-        </Section>
         <Section>
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {
