@@ -43,7 +43,7 @@ export const RESUME_DATA = {
       company: "Nunchi",
       link: "https://nunchi.trade/",
       badges: ["Event-Driven Systems", "Kafka", "Matching Engine"],
-      title: "Staff Engineer (AI Systems)",
+      title: "Staff Engineer",
       logo: "/images/logos/nunchiLogo.png",
       start: "Jul '25",
       end: "May '26",
