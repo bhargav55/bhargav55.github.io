@@ -111,31 +111,15 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      {work.link ? (
-                        <a className="hover:underline flex items-center gap-x-2" href={work.link}>
-                          {work.logo ? (
-                            <img
-                              src={work.logo}
-                              alt={`${work.company} logo`}
-                              width={16}
-                              height={16}
-                            />
-                          ) : null}
-                          {work.company}
-                        </a>
-                      ) : (
-                        <span className="flex items-center gap-x-2">
-                          {work.logo ? (
-                            <img
-                              src={work.logo}
-                              alt={`${work.company} logo`}
-                              width={16}
-                              height={16}
-                            />
-                          ) : null}
-                          {work.company}
-                        </span>
-                      )}
+                      <a className="hover:underline flex items-center gap-x-2" href={work.link}>
+                          <img
+                            src={work.logo}
+                            alt={`${work.company} logo`}
+                            width={16}
+                            height={16}
+                          />
+                        {work.company}
+                      </a>
 
                       <span className="inline-flex gap-x-1">
                         {work.badges.map((badge) => (
