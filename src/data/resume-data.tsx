@@ -51,26 +51,15 @@ export const RESUME_DATA = {
       "Sustained 1000 events/min in a real-time indexing pipeline streaming contract events through Kafka powering a low-latency trading platform.\nBuilt the central limit orderbook with matching engine at the core of the exchange, along with clearing house settlement handling 200 orders/minute.\nBuilt idempotency workers that consume Kafka events and fanout to different components in the systems like notification, position updates and leaderboard analytics.\nOwned core trading services (order matching, risk, automated settlement), keeping state queryable at low latency across distributed systems.\nDesigned an autonomous-agent marketplace where agents claim and execute production jobs and are paid on verified proof of completion."
     },
     {
-      company: "Novastro",
-      link: "https://www.novastro.xyz/",
-      badges: ["Event-Driven Systems", "Wallet Management"],
-      title: "Senior Backend Engineer",
-      logo: "/images/logos/NovastroLogo.png",
-      start: "Apr '24",
-      end: "Jun '25",
-      description:
-      "Built an in-house indexer for EVM chains using TypeScript, GraphQL, and MongoDB to stream, process, and query on-chain data for analytics.\nBuilt internal services to coordinate transaction execution across distributed systems (bundlers, relayers), implementing job scheduling, retries, and batching the transactions, increasing processing throughput 10x from 100 to 1000 TPS.\nOwned an in-house MPC wallet service that signed transactions for 50k users via distributed key shares, with no single private key ever reconstructed."
-    },
-    {
       company: "Oddz",
       link: "https://www.oddz.fi/",
-      badges: ["Options", "DeFi"],
-      title: "Blockchain Engineer",
+      badges: ["Event-Driven Systems", "Wallet Management", "DeFi"],
+      title: "Founding Engineer",
       logo: "/images/logos/OddzLogo.png",
       start: "Jan '21",
-      end: "Dec '23",
+      end: "Jun '25",
       description:
-      "Led smart contract development for Oddz protocol (oddz.fi), an options trading platform with concentrated liquidity (Uniswap V3-style) for capital-efficient risk management, staking, and liquidity provisioning. Audited contracts are deployed to BNB Chain and Avalanche.\nDeveloped a staking platform for liquidity providers and ODDZ token holders to get maximum yield in ODDZ token along with platform fee discount.\nBuilt automation systems for options protocol workflows, including expiry handling, staking reward distribution, and dynamic risk adjustments using Chainlink Keepers and Gelato for on-chain execution maintaining 100% production uptime."
+      "Built an in-house indexer for EVM chains using TypeScript, GraphQL, and MongoDB to stream, process, and query on-chain data for analytics.\nBuilt internal services to coordinate transaction execution across distributed systems (bundlers, relayers), implementing job scheduling, retries, and batching the transactions, increasing processing throughput 10x from 100 to 1000 TPS.\nOwned an in-house MPC wallet service that signed transactions for 50k users via distributed key shares, with no single private key ever reconstructed.\nLed smart contract development for Oddz protocol (oddz.fi), an options trading platform with concentrated liquidity (Uniswap V3-style) for capital-efficient risk management, staking, and liquidity provisioning. Audited contracts are deployed to BNB Chain and Avalanche.\nDeveloped a staking platform for liquidity providers and ODDZ token holders to get maximum yield in ODDZ token along with platform fee discount.\nBuilt automation systems for options protocol workflows, including expiry handling, staking reward distribution, and dynamic risk adjustments using Chainlink Keepers and Gelato for on-chain execution maintaining 100% production uptime."
     },
     {
       company: "Rakuten",
