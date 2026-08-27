@@ -119,5 +119,16 @@ export const RESUME_DATA = {
     "Structured Outputs",
     "Eval Frameworks"
   ],
-  projects: [],
+  projects: [
+    {
+      title: "OrgGPT",
+      techStack: ["RAG", "MCP", "Qdrant", "Postgres", "Evals"],
+      description:
+        "Multi-tenant context-graph SaaS that connects GitHub, Notion, Slack, and docs, indexing 1,000+ pages across 10+ repos into Qdrant/Postgres and serving grounded, cited answers to AI coding agents over MCP. Reached ~88% citation correctness in internal evals with 75+ graded questions and held retrieval at ~300ms across the multi-tenant RAG service.",
+      link: {
+        label: "orggpt.app",
+        href: "https://orggpt.app/",
+      },
+    },
+  ],
 } as const;
