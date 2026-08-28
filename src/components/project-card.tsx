@@ -1,7 +1,6 @@
 import {
   Card,
   CardHeader,
-  CardContent,
   CardDescription,
   CardTitle,
 } from "./ui/card";
@@ -41,7 +40,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
           </CardDescription>
         </div>
       </CardHeader>
-      <CardContent className="mt-auto flex">
+      <div className="mt-auto flex">
         <div className="mt-2 flex flex-wrap gap-1">
           {tags.map((tag) => (
             <Badge
@@ -53,7 +52,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
             </Badge>
           ))}
         </div>
-      </CardContent>
+      </div>
     </Card>
   );
 }
